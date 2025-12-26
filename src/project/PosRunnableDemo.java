@@ -75,7 +75,7 @@ public class PosRunnableDemo {
                 System.out.println("[MAIN] POS ready for next transaction.");
     }
 
-        static void sleep(long millis) {
+        public static void sleep(long millis) {
             try {
                 Thread.sleep(millis);
             } catch (InterruptedException e) {
